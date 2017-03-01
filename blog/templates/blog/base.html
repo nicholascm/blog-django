@@ -9,6 +9,8 @@
     </head>
     <body>
     <div class="container">
+        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span> New Post</a>
+
             {% block content %}
             {% endblock %}
     </div>
